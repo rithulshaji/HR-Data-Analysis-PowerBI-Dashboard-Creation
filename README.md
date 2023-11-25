@@ -1,5 +1,11 @@
 # HR-Data-Analysis & PowerBI Dashboard Creation
 
+![HR Dashboard 1]([images/image_name.png](https://github.com/rithulshaji/HR-data-analysis-Power-BI-dashboard/blob/main/HR%20Dashboard%201.png
+))
+
+![HR Dashboard 1]([images/image_name.png](https://github.com/rithulshaji/HR-data-analysis-Power-BI-dashboard/blob/main/HR%20Dashboard%201.png](https://github.com/rithulshaji/HR-data-analysis-Power-BI-dashboard/blob/main/HR%20Dashboard%202.png)
+))
+
 ### Data Utilized
 
 Data Source: HR Dataset containing over 22,000 rows spanning from 2000 to 2020.
