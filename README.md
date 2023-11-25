@@ -1,20 +1,43 @@
-# HR-data-analysis-Power-BI-dashboard
-HR Data with over 22000 rows from the year 2000 to 2020.
+# HR-Data-Analysis & PowerBI Dashboard Creation
 
-Data Cleaning & Analysis - MySQL Workbench
+### Data Utilized
 
-Data Visualization - PowerBI
+Data Source: HR Dataset containing over 22,000 rows spanning from 2000 to 2020.
 
-Questions
+### Data Processing & Analysis Tools
 
-1. What is the gender breakdown of employees in the company?
-2. What is the race/ethnicity breakdown of employees in the company?
-3. What is the age distribution of employees in the company?
-4. How many employees work at headquarters versus remote locations?
-5. What is the average length of employment for employees who have been terminated?
-6. How does the gender distribution vary across departments and job titles?
-7. What is the distribution of job titles across the company?
-8. Which department has the highest turnover rate?
-9. What is the distribution of employees across locations by state?
-10. How has the company's employee count changed over time based on hire and term dates?
-11. What is the tenure distribution for each department?
+Data Cleaning & Analysis: Executed using MySQL Workbench  
+Data Visualization: Utilized PowerBI
+
+### Key Questions Addressed
+
+- What is the gender distribution among company employees?
+- How does the race/ethnicity breakdown look within the company?
+- What's the age distribution among the employees?
+- What's the employee distribution between headquarters and remote locations?
+- What's the average tenure for terminated employees?
+- How does gender distribution vary across different departments and job titles?
+- What's the job title distribution across the company?
+- Which department experiences the highest turnover rate?
+- How are employees distributed across different states/locations?
+- How has the company's employee count changed over time based on hiring and termination dates?
+- What's the tenure distribution within each department?
+
+### Summary of Discoveries
+
+- Male employees outnumber female employees.
+- White ethnicity dominates the workforce, while Native Hawaiian and American Indian ethnicities are the least represented.
+- The youngest employee is 20 years old, and the oldest is 57 years old. 
+- Most employees fall within the age groups of 25-34 and 35-44, with the smallest group aged 55-64.
+- The majority of employees work at the headquarters rather than remotely.
+- The average tenure for terminated employees is approximately 7 years.
+- Gender distribution across departments is balanced, with a slight male majority overall.
+- Marketing experiences the highest turnover rate, while Research and Development, Support, and Legal departments have lower turnover rates.
+- A significant number of employees originate from Ohio.
+- Over the years, the company's employee count has shown a net increase.
+- Departments show an average tenure of about 8 years, with Legal and Auditing having the highest and Services, Sales, and Marketing having the lowest.
+
+### Limitations
+
+- Excluded records with negative ages (967 records) and only considered ages 18 and above.
+- Omitted records with term dates far into the future (1599 records), only focusing on term dates less than or equal to the current date.
